@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@0;1&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
 .gallery-image img {
     width: 100%;
     height: 250px;
@@ -16,9 +18,10 @@ header .header-banner {
     }
     header h1 { 
         font-weight: 700;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: "Gentium Book Basic", serif;
+        font-style: italic;
         font-size: 60px;
-        color: #21d4f8;
+        color: #ffffff;
         line-height: 70px;
         text-transform: uppercase;
         text-align: center;
@@ -26,7 +29,7 @@ header .header-banner {
         
         }  
         header h2 {
-        font-family:'Times New Roman', Times, serif;
+        font-family: "Open Sans", sans-serif;
         font-style: italic;
         font-weight: 300;
         font-size: 15px;
@@ -66,15 +69,19 @@ header .header-banner {
                     }
 
                     main p {
-                        font-family:'Times New Roman', Times, serif;
+                        font-family: "Open Sans", sans-serif;
                         font-size: 15px;
                         line-height: 1.5;
                     }
 
                     main h2{
-                        font-family: 'Times New Roman', Times, serif;
-                        font-size: 30px;
-                        text-transform: uppercase;
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    letter-spacing: 3px;
+                    color: #172029;
+                    text-transform: uppercase;
+                    text-decoration: none;
                     }
 
                     .container {
@@ -191,11 +198,37 @@ header .header-banner {
                                                            padding: 16px 42px;
                                                     
                                                     }
+                                                    .gallery-h2 {
+
+                                                        display: none;
+                                                    }   
+                                                    hr {
+                                                        display: none;   
+                                                    }
                                                 }
                                                     @media only screen and (max-width: 950px) {
                                                     .container img {
-                                                        display: none;
+                                                        display: none;   
                                                     }
+                                                    .gallery-h2 {
+
+                                                        font-family: "Gentium Basic", sans-serif;
+                                                        font-weight: 400;
+                                                        font-size: 18px;
+                                                        letter-spacing: 2px;
+                                                        padding: 10px;
+                                                        color: #3a383d;
+                                                        text-transform: uppercase;
+                                                        text-align: left;
+                                                        
+                                                        }
+                                                    hr {
+                                                     color: #4f5663;
+                                                     border-width: 2px;
+                                                      width: 30%;
+                                                      margin: 0 auto;
+                                                      margin-bottom: 5px;
+                                                     }
                                                     }
                                                                  
 
