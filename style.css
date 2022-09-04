@@ -1,0 +1,201 @@
+.gallery-image img {
+    width: 100%;
+    height: 250px;
+    border-radius: 50%;
+}
+header .header-banner {
+
+    background-image: url("https://p.kindpng.com/picc/s/115-1153469_vegetable-transparent-arts-clip-art-royalty-free-download.png");
+    width: 100%;
+    height: calc(100vh - 500px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+    
+    }
+    header h1 { 
+        font-weight: 700;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 60px;
+        color: #21d4f8;
+        line-height: 70px;
+        text-transform: uppercase;
+        text-align: center;
+        text-shadow: 2px 2px 8px #000000;
+        
+        }  
+        header h2 {
+        font-family:'Times New Roman', Times, serif;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 15px;
+        letter-spacing: 5px;
+        color: #080808;
+        text-transform: uppercase;
+        text-align: center;
+        
+        }
+    
+            header nav ul {
+
+                display: block;
+                margin: 0 auto;
+                text-align: center; /*IE*/
+                width: fit-content;
+                
+                }
+                
+                header nav ul li {
+                
+                display: inline-block;
+                padding: 16px 16px;
+                
+                }
+                
+                nav ul li a {
+
+                    font-family: "Open Sans", sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    letter-spacing: 3px;
+                    color: #172029;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    
+                    }
+
+                    main p {
+                        font-family:'Times New Roman', Times, serif;
+                        font-size: 15px;
+                        line-height: 1.5;
+                    }
+
+                    main h2{
+                        font-family: 'Times New Roman', Times, serif;
+                        font-size: 30px;
+                        text-transform: uppercase;
+                    }
+
+                    .container {
+                        display: flex;
+                        align-items:flex-start;   
+                    }
+                    .container img {
+                        width: 200px;
+                        height: 250px;
+                       margin-left: 50px;   
+                    }
+
+                    .gallery-image {
+
+                        margin: 10px;
+                        position: relative;
+                        text-align: center;
+                        -webkit-flex-basis: 300px;
+                        -moz-flex-basis: 300px;
+                        flex-basis: 300px;
+                        border-radius: 50%;
+                
+                        
+                        } 
+                        .post-header {       
+                            
+                            font-family: "Open Sans", sans-serif;
+                            font-weight: 700;
+                            font-size: 22px;
+                            letter-spacing: 3px;
+                            line-height: 24px;
+                            color: #ffffff;
+                            text-transform: uppercase;
+                            text-shadow: 3px 3px 9px #111111;
+                        
+                            
+                            
+                            position:absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            
+                            }
+                            .gallery-links {
+
+                                display: flex;
+                                flex-flow: row wrap;
+                                display: -webkit-flex;
+                                -webkit-flex-flow: row wrap;
+                                display: -moz-flex;
+                                -moz-flex-flow: row wrap;
+                                justify-content: center;
+                                -o-flex-flow: row wrap;
+                                justify-content: center;
+                                
+                                }
+                                  
+                    footer {
+
+                        width: calc(100% - 80px);
+                        padding: 40px 40px;
+                        background-color: #817f82;
+                        margin-top: 20px;
+                        overflow: hidden;
+                        
+                        }
+                            .footer-andmed {
+
+                                width: fit-content;
+                                float: left;
+                                padding-left: 0px;
+                                color: #ffffff;
+                                
+                                }
+                                .footer-sm {
+
+                                    width: 32px;
+                                    float: right;
+                                    
+                                    }
+                                    
+                                    .footer-sm img {
+                                    
+                                    width: 100%;
+                                    margin-bottom: 10px;
+                                    
+                                    }
+                                    
+                                        
+
+                                                @media only screen and (min-width: 950px) {   
+
+                                                    header .header-banner {
+                                                    
+                                                          height: calc(100vh - 400px);
+                                                    
+                                                    }   
+                                                    
+                                                    header h1 a {
+                                                    
+                                                          font-size: 80px;
+                                                    
+                                                    }  
+                                                    
+                                                    header h2 {
+                                                    
+                                                          font-size: 24px;
+                                                          margin-top: 20px;
+                                                    
+                                                    }
+                                                    
+                                                    header nav ul li {
+                                                    
+                                                           padding: 16px 42px;
+                                                    
+                                                    }
+                                                }
+                                                    @media only screen and (max-width: 950px) {
+                                                    .container img {
+                                                        display: none;
+                                                    }
+                                                    }
+                                                                 
+
