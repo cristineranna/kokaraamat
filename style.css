@@ -213,6 +213,11 @@ header .header-banner {
                                                     .container img {
                                                         display: none;   
                                                     }
+                                                    header nav ul li {
+                                                    
+                                                        padding: 16px 10px;
+                                                 
+                                                 }
                                                     .gallery-h2 {
 
                                                         font-family: "Gentium Basic", sans-serif;
