@@ -60,7 +60,7 @@ header .header-banner {
 
                     font-family: "Open Sans", sans-serif;
                     font-weight: 400;
-                    font-size: 18px;
+                    
                     letter-spacing: 3px;
                     color: #172029;
                     text-transform: uppercase;
@@ -199,6 +199,7 @@ header .header-banner {
                                                     header nav ul li {
                                                     
                                                            padding: 16px 42px;
+                                                           font-size: 18px;
                                                     
                                                     }
                                                     .gallery-h2 {
@@ -215,9 +216,15 @@ header .header-banner {
                                                     }
                                                     header nav ul li {
                                                     
-                                                        padding: 16px 10px;
+                                                        display: inline-block;                        
+                                                        padding: 16px 4px; 
+                                                        font-size: 12px;
+                                                        
+                                                        
+                                                
                                                  
                                                  }
+                                               
                                                     .gallery-h2 {
 
                                                         font-family: "Gentium Basic", sans-serif;
@@ -239,5 +246,6 @@ header .header-banner {
                                                       margin-bottom: 5px;
                                                      }
                                                     }
+                                                
                                                                  
 
